@@ -1,0 +1,51 @@
+/* * {
+  border: solid 1px
+} */
+body {
+  background-color: #694c4c;
+}
+.container {
+  width: 400px;
+/*   border: solid 1px white; */
+  padding-top: 10px;
+}
+
+.checked {
+  color: #ccc;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.fa {
+  margin: 0 5px;
+  color: #bbb;
+  cursor: pointer
+}
+.fa:hover{
+  color: black;
+  transition: 0.5s;
+}
+
+li>label[for='todo'] {
+  width: 210px;
+}
+.text {
+  cursor: pointer;
+  background-color: #f67280;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-left: 6px;
+}
+.text:hover {
+  color: white;
+  transition: 0.5s;
+  background-color: #694c4c;
+}
+
+.title {
+  font-size: 30px;
+  color: white
+}
+.btn {
+  font-family: 微軟正黑體;
+}
